@@ -8,7 +8,7 @@ x = 0
 while result != los:
     try:
         x += 1
-        result = int(input("Guess the number: "))
+        result = int(input("Hi user, guess the number from 0 to 100: "))
     except ValueError:
         print("It's not a number!")
         continue
